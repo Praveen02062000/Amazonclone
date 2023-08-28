@@ -1,0 +1,316 @@
+.signin--main--con {
+    background-color: rgba(0, 255, 255, 0);
+    width:100%;
+    height:100%;  
+}
+
+.signin--main--upper--con{
+    width:100%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0);
+  
+}
+.sigup--upper-main--con {
+    width:22rem; 
+    background-color:rgba(255, 0, 0, 0);
+    
+}
+.signup--upper--con {
+    width:100%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0);
+    margin-bottom:5rem;
+}
+.signup--main--con {
+    border:1px solid rgb(207, 207, 207);
+    padding:20px;
+    width:90%;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+}
+.signup--upper--con {
+    height:70%;
+}
+.signup--img--con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin-logo--con ,.signup--img--con{
+    margin-bottom:10px;
+    margin-top:5px;
+}
+.signin-logo--con img , .signup--img--con img{
+    width:120px;
+}  
+.signin--con {
+    border:1px solid rgb(230, 230, 230);
+    width:19rem;
+    height:17rem;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    border-radius:10px;
+    background-color:rgba(255, 0, 0, 0);
+
+}
+.signin--con .emptytext i {
+    font-size:15px;
+}
+.signin--con .emptytext {
+    font-size:12px;
+    color:red;
+    font-weight:500;
+    position: relative;
+    bottom:1.5rem;
+    right:15px;
+}
+.signin--con form label {
+    font-size:12px;
+    font-weight:700;
+}
+.signin--con form {
+    display: flex;
+    flex-direction: column;
+}
+.signin--con form input {
+    width:97%;
+    height:30px;
+    margin-bottom:1rem;
+    padding-left:10px;
+    border-radius:5px;
+    border:1px solid rgb(197, 197, 197);
+    
+}
+.signin--con form input:focus {
+    border:1px solid rgb(0, 169, 226);
+    box-shadow:0px 0px 5px rgb(24, 144, 255);
+    outline: none;
+}
+.signin--con .span {
+    font-size:11px;
+    font-weight:500;
+    margin-top:20px;
+    color:gray;
+}
+.signin--con .altspan{
+    font-size:11px;
+    font-weight:500;
+    margin-top:20px;
+    color:gray;
+    position: relative;
+    bottom:2rem;
+
+}
+.signin--con form .altsignin {
+    background-color:rgb(255, 197, 90);
+    width:100%;
+    border-style:none;
+    height:35px;
+    border-radius:10px;
+    font-weight:500;
+    font-size:13px;
+    margin-bottom:1rem;
+    position: relative;
+    bottom:1.5rem;
+
+}
+.signin--con form .sign ,.signup--main--con form button {
+    background-color:rgb(255, 197, 90);
+    width:100%;
+    border-style:none;
+    height:35px;
+    border-radius:10px;
+    font-weight:500;
+    font-size:13px;
+    margin-bottom:1rem;
+   
+}
+.signin--con h1 {
+    font-size:26px;
+    font-weight:470;
+}
+.signin--con--foot {
+    display: flex;
+    flex-direction: column;
+
+}
+.main--footer--con {
+    height:50%;
+    width:100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+.line--con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+ 
+  
+}
+.line--con hr {
+    
+    background-color: rgb(196, 196, 196);
+}
+.line--con span {
+    text-align: center;
+    position: relative;
+    bottom:2.5rem;
+    background-color: rgb(255, 255, 255);
+    width:90px;
+    border-radius:5px;
+    left:7.6rem;
+    font-size:10px;
+    color: rgb(133, 133, 133);
+}
+.signin--con--foot button {
+    height:35px;
+    background-color: white;
+    border-radius:5px;
+    width:100%;
+    border:1px solid rgb(192, 192, 192);
+    font-size:13px;
+    font-weight:550;
+    position: relative;
+    bottom:1rem;
+    box-shadow:0px 0px 5px rgb(184, 184, 184);
+
+}
+.signin--footer--con {
+    width:80%;
+    
+
+}
+
+.signin--footer--condition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.signin--footer--condition ul {
+    display: flex;
+    font-size:12px;
+    justify-content: space-evenly;
+    width:20%;
+}
+.signin--footer--condition ul li{
+    text-align: center;
+    color: blue;
+    list-style:none;
+}
+.signup--main--con form {
+    display: flex;
+    flex-direction: column;
+}.signup-name {
+    margin-bottom:10px;
+}
+.signin--main--con form .signup-name , .signup--main--con form .signup-number,.signup--main--con form .signup-email-con,.signup--main--con form .signup-password-con{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+}
+.signup--main--con input {
+    height:26px;
+    border-radius:3px;
+    padding-left:20px;
+    border:1px solid rgb(155, 155, 155);
+}
+.signup--main--con label {
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:3px;
+}
+
+.signup--img--con {
+    margin-bottom:20px;
+}
+.signup--main--con span {
+    font-size:11px;
+    color:red;
+    font-weight:400;
+    padding: left 3px;
+  
+    
+}
+.signup--main--con h3 {
+    font-size:24px;
+    position: relative;
+    bottom:2rem;
+    font-weight:500;
+}
+.signup--main--con form {
+    position: relative;
+    bottom:2rem;
+}
+.signup--main--con form .signup-number-con {
+    justify-content: space-evenly;
+    background-color: rgba(0, 255, 255, 0);
+}
+.signup--main--con form .signup-number-con select {
+    width:95%;
+    border-radius:5px;
+    height:29px;
+}
+.signup--main--con form .signup-number-con .signup-number-input {
+    position: relative;
+    width:100%;
+    right:0rem;
+    background-color: rgba(0, 255, 255, 0);
+}
+.signup--main--con p {
+    font-size:14px;
+    position: relative;
+    right:15px;
+    color:rgb(141, 141, 141);
+}
+
+.signup--main--con form .signup-number-con input {
+    width:12rem;
+}
+.signup--main--con form .signup-number .signup-number-con {
+    display: flex;
+}
+.signup-number-con .signup-number-input {
+    display: flex;
+    flex-direction: column;
+}
+.signup-name .signup-name-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form-foot-con span {
+    color: rgb(141, 141, 141);
+    font-weight:500;
+    display: block;
+}
+.password-con {
+    display: block;
+}
+.signup-form-foot-con {
+    height:10%;
+    position: relative;
+    bottom:2rem;
+}
+.signup--footer--con {
+    height:20%;
+}
+
+
+
+
+
+
+

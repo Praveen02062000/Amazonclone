@@ -1,0 +1,370 @@
+
+.order-head {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:5rem;
+
+    border-bottom:1px solid rgb(200, 200, 200);
+    box-shadow: inset 0px -10px 20px rgba(230, 230, 230, 0.818);
+}
+.order-head img {
+    width:120px;
+}
+.order-head h1 {
+    font-weight:300;
+    font-size:26px;
+    color: rgb(98, 98, 98);
+}
+.order-body {
+    width:100%;
+    height:85vh;
+    background-color: rgba(127, 255, 212, 0);
+}
+.btn-con1, .btn-con2,.btn-con3 {
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+}
+.btn-con1 h4:nth-child(2) , .btn-con2 h4:nth-child(2), .btn-con3 h4:nth-child(2){
+    margin-left:20px;
+}
+.sub-order {
+    width:67%;
+    position: relative;
+    left:3%;
+    height:80vh;
+    background-color: rgba(0, 255, 255, 0);
+    margin:0px auto;
+    display: flex;
+}
+.order-left {
+    width:70%;
+    height:100%;
+    background-color: rgba(127, 255, 212, 0);
+
+}
+.btn-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.btn-address .main-btn-address {
+    border:1px solid rgb(211, 211, 211);
+    width:90%;
+    border-radius:10px;
+}
+
+.address-detail-con {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 250, 241);
+    border:.5px solid rgb(255, 214, 139);
+    margin:10px;
+    justify-content: start;
+    border-radius:10px;
+    padding-left:20px;
+}
+.address-detail-con input {
+    margin-right:20px;
+}
+.address-detail-con span {
+    display: flex;
+    align-items: center;
+    font-size:12px;
+    margin-left:3px;
+}
+.add-body-btn {
+    padding:10px;
+}
+.add-head-btn {
+  background-color: rgba(0, 255, 255, 0);
+  height:4rem;
+  width:97%;
+  margin:0px auto;
+  border-bottom:1px solid gray;
+  display: flex;
+  
+}
+.new-add-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom:1rem;
+}
+.new-add-btn h4 {
+    font-size:20px;
+    padding-left:30px;
+    color:gray;
+}
+.new-add-btn span {
+    color: rgb(3,135,176);
+    font-size:13px;
+    padding-left:10px;
+    font-weight:600;
+}
+.add-foot-btn,.pay-foot {
+    background-color: rgba(247, 247, 247, 0.928);
+    height:4rem;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+    display: flex;
+    align-items: center;
+    border-top:1px solid rgb(211, 211, 211);
+
+}
+.pay-foot {
+    width:100%;
+}
+.add-foot-btn button {
+    margin-left:1.5rem;
+    height:35px;
+    width:140px;
+    font-weight:750;
+    font-size:13px;
+    background-color: rgb(251, 224, 23);
+    border-radius:10px;
+    border-style:none;
+}
+
+/* btn2 */
+
+.btn-payment {
+    border:1px solid rgb(208, 208, 208);
+    border-radius:10px;
+    width:90%;
+    margin:0px auto;
+}
+
+.btn-pay1,.btn-pay2 {
+    width:95%;
+    background-color: rgba(0, 255, 255, 0);
+    margin: 0px auto;
+    border-bottom:1px solid rgb(168, 168, 168);
+}
+
+.btn-pay1-value {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0);
+    width:95%;
+    margin:0px auto;
+
+}
+.btn-pay1-value h1 {
+    color: rgb(201, 201, 201);
+    font-weight:500;
+    font-size:22px;
+}
+.btn-pay1-value input {
+    height:30px;
+    margin:0px 10px;
+    padding-left:10px;
+    width:280px;
+    border-radius:5px;
+    border-style:none;
+    border:1px solid rgb(163, 162, 162);
+}
+.btn-pay1-value button {
+    height:30px;
+    width:70px;
+    background-color:white;
+    border-radius:10px;
+    border:1px solid rgb(185, 185, 185);
+}
+.net-bank,.upi-payment,.emi-payment ,.COD-payment,.cr-dr{
+    display: flex;
+    flex-direction: column;
+    margin-left:3%;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.net-bank label,.upi-payment label,.cr-dr label,.emi-payment label ,.COD-payment label{
+    font-weight: 700;
+    font-size:14px;
+    
+}
+.net-bank label input,.upi-payment label input,.cr-dr label input,.COD-payment label input ,.emi-payment label input{
+    margin-right:10px
+}
+.net-bank select {
+    margin-top:5px;
+    width:30%;
+    height:35px;
+    box-shadow:0px 0px 5px rgba(190, 190, 190, 0.772);
+    border-radius:10px;
+    padding-left:10px;
+    border:1px solid rgb(190, 190, 190);
+    background-color:rgb(233, 233, 233);
+    font-weight:600;
+    position: relative;
+    left:3%;
+
+}
+.net-bank select option {
+    background-color: white;
+}
+.all-payment {
+    background-color: rgba(0, 255, 255, 0);
+    width:97%;
+    margin: 0px auto;
+}
+
+.upi-con {
+    margin-left:20px;
+    margin-top:20px;
+}
+.upi-con span {
+    font-size:14px;
+    font-weight:500;
+
+}
+.upi-con div {
+    margin-top:5px;
+}
+.upi-con div input {
+    height:30px;
+    padding-left:10px;
+    border-radius:5px;
+    border:1px solid rgb(80, 80, 80);
+    font-weight: 600;
+    margin-right:10px;
+    
+}
+.upi-con div button {
+    width:80px;
+    height:35px;
+    border-radius:10px;
+    border-style:none;
+    background-color:rgb(251, 224, 23);
+    font-weight:600;
+}
+.pay-foot button {
+    background-color: rgb(251, 224, 23);
+    width:190px;
+    height:35px;
+    border-style:none;
+    border-radius:10px;
+    font-weight:600;
+    margin-left:30px;
+}
+
+.select-address,.select-payment {
+    position: relative;
+    left:20%;
+    background-color: rgba(0, 255, 255, 0);
+    width:50%;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+}
+.show-add {
+    line-height:1px;
+    margin-top:20px;
+}
+.show-add h5 {
+    font-weight:400;
+    color:rgb(62, 62, 62);
+}
+.order-right1 {
+    width:30%;
+    border-radius:10px;
+}
+
+.order-right {
+    width:90%;
+    margin-left:5px;
+    margin-top:20px;
+    background-color: rgba(0, 255, 255, 0);
+    border:2px solid rgb(230, 230, 230);
+    border-radius:10px;
+  
+}
+.show-bill-con {
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2px auto;
+}.line {
+    width:95%;
+    height:1px;
+    margin-top:5px;
+    background-color: rgb(183, 183, 183);
+}
+.bill-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin:10px auto;
+}
+.bill-head button {
+    background-color: rgb(251, 224, 23);
+    width:17rem;
+    height:40px;
+    border-radius:10px;
+    border-style: none;
+    font-weight:600;
+}
+.bill-head button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 195, 55);
+}
+.bill-head span {
+    font-size:11px;
+    width:70%;
+    margin-top:5px;
+    font-weight:500;
+    
+}
+.bill-summary {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(127, 255, 212, 0);
+    width:90%;
+    
+}
+.bill-summary div {
+    background-color: rgba(0, 255, 255, 0);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    line-height:1px;
+    font-size:12px;
+    color:gray;
+    font-weight:400;
+}
+.bill-total {
+    display: flex;
+    justify-content: space-between;
+    width:87%;
+    color:red;
+}
+.bill-summary div:nth-child(3){
+    position: relative;
+    bottom:.7rem;
+}
+.bill-foots {
+    background-color: rgb(171, 171, 171);
+    height:4rem;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.bill-foots p {
+    color: rgb(1, 91, 107);
+    font-size:12px;
+}
+
+.lower-order {
+    font-size:12px;
+    color:gray;
+    margin-top:5rem;
+    line-height:20px;
+}

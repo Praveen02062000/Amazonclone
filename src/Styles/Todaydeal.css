@@ -1,0 +1,33 @@
+body {
+    overflow-x:hidden;
+}
+.todaydealpage--con {
+    width:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.todaydeal--head {
+    background-color: aliceblue;
+    width:100%;
+    height:3rem;
+}
+.recommended--con {
+    position: relative;
+    top:17rem;
+}
+.all-products--con {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top:2rem;
+    
+}
+.con-todaydeal {
+    width:17rem;
+    border:1px solid rgb(221, 221, 221);
+    height:20rem;
+}

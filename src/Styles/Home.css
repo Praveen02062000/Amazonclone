@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+:root {
+    --fontrobo:'Permanent Marker', cursive;
+    --fontrobo2: 'Roboto', sans-serif;
+    --pop: 'Poppins', sans-serif;
+}
+
+
+
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+.add-sponsored {
+    width:100%;
+    height:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius:10px;
+}
+.add-sponsored button {
+    width:20rem;
+    height:40px;
+    border-radius:10px;
+    background-color: orange;
+    border-style: none;
+}
+
+.home-main--con {
+    background-color: rgba(78, 78, 78, 0);
+    width:80%;
+    margin:0px auto;
+}
+.add--box {
+    width:100%;
+    background-color: rgba(166, 189, 189, 0); 
+    position: relative;
+    bottom:15rem; 
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.con--1 ,.sign--con{
+    box-shadow:1px 1px 10px rgba(194, 194, 194, 0.839);
+}
+.add--box .con--1,.con--2 {
+    width:23rem;
+    height:28rem;
+    background-color: rgb(255, 255, 255);
+    margin:4px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:5px;
+   
+   
+}
+.con--2 {
+    justify-content: space-between;
+    background-color: transparent;
+}
+.con--2 .sign--con {
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    height:40%;
+    
+    
+}
+.sign--con button {
+    width:90%;
+    margin:10px 20px;
+    height:40px;
+    border-radius:15px;
+    background-color: rgb(255, 204, 0);
+    border-style: none;
+}
+
+.con--1 .img--con--main--product {
+    padding:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con--1 .img--con--main--product img {
+    width:350px;
+    height:300px;
+    
+}
+.con--1 h3,.sign--con h3  {
+    font-weight:450;
+}
+.con--1 p {
+    font-size:14px;
+   
+}
+.con--1 p:hover {
+    color: red;
+}
+.con--1 h3 , p,.sign--con h3 {
+    margin-left:20px;
+    text-align: left;
+    font-family: var(--fontrobo2);
+    
+}
+.img--grid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.img--grid div {
+    display: flex;
+    flex-direction: column;
+    margin:4px 0px;
+}
+.img--grid div img {
+    width:160px;
+    height:120px;
+    
+}.img--grid div span {
+    font-size:10px;
+}
+
+
+/* todaydeal */
+
+.todaydeal {
+    background-color:rgb(255, 255, 255);
+    width:100%;
+    height:20rem;
+    border-radius:4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:1rem;
+}
+.scroll-todaydeal {
+    background-color:rgb(255, 255, 255);
+    width:98%;
+    height:18rem;
+    display:flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+.load--pro--todaydeal {
+    background-color:rgb(255, 255, 255);
+    width:98%;
+    height:18rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.scroll-todaydeal::-webkit-scrollbar{
+    visibility: hidden;
+}
+.todaydeal .left--scroll--todaydeal , .todaydeal .right--scroll--todaydeal {
+    background-color:white;
+    height:5rem;
+    width:30px;
+    border-style:none;
+    position:absolute;
+    top:6rem;
+  
+}
+.todaydeal .left--scroll--todaydeal:hover,.todaydeal .right--scroll--todaydeal:hover {
+    border:.5px solid rgba(0, 0, 0, 0.319);
+}
+.todaydeal .left--scroll--todaydeal{
+    left:1rem;
+    box-shadow:5px 0px 10px rgba(0, 0, 0, 0.18);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.todaydeal .right--scroll--todaydeal{
+    right:1rem;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+.dealitem {
+    padding:5px;
+    display: flex;
+    border-radius:10px;
+    flex-direction: column;
+    margin:2px 10px;
+    background-color: rgba(232, 232, 232, 0.218);
+    
+}
+.dealitem img {
+    width:200px;
+    max-height:150px;
+    min-height:150px;
+}
+.offer-time {
+    display: flex;
+    align-items: center;
+    margin:4px 0px;
+    width:100%;
+}
+.offer-time button {
+    background-color:rgb(234, 3, 69);
+    color: white;
+    border-style: none;
+    width:100px;
+    border-radius:2px;
+    font-weight:500;
+    height:23px;
+    font-size:10px;
+    position: relative;
+    left:10px;
+}
+.offer-time p {
+    font-size:10px;
+    color:rgb(170, 4, 4);
+}
+.main--todaydeal--con {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    bottom:14rem;
+    border-radius:10px;
+    height:25rem;
+}
+.deal-item-con-details {
+    background-color: white;
+    width:100%;
+    height:100%;
+
+}
+.todaydeal-title {
+    display: flex;
+    align-items: center;
+    margin:0px 10px;
+    background-color: rgba(0, 255, 255, 0);
+    font-family:var(--pop) ;
+    font-weight:700;
+}
+.todaydeal-title h4 {
+    padding-left:30px;
+    margin-right:10px;
+    font-size:20px;
+
+}
+.todaydeal-item-title {
+    font-size:13px;
+}
+
+
+

@@ -1,0 +1,113 @@
+.product--main-con {
+    width:100%;
+}
+.product-main-head{
+    background-color: rgb(255, 255, 255);
+    height:4rem;
+    display: flex;
+    align-items: center;
+}
+.fav-select {
+    position: absolute;
+    right:5rem;
+
+}.fav-select select {
+    width:10rem;
+    height:2rem;
+    border-radius:5px;
+
+}
+.fav-select select option {
+    font-weight:500;
+}
+
+
+.products--con{
+    background-color: rgba(127, 255, 212, 0);
+    width:100%;
+ 
+}
+.product--con--head{
+    width:99%;
+    height:5rem;
+    line-height:2px;
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+}
+.product--con--head h4 {
+    font-size:18px;
+    font-weight:500;
+    padding-left:10px;
+} .product--con--head span {
+    font-size:12px;
+    padding-left:10px;
+}
+.products--show--list{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px auto;
+}
+.products--con--main{
+    width:70%;
+    background-color: rgba(233, 233, 233, 0);
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* productitem styles */
+.productsItemCon {
+    width:20rem;
+    height:32rem;
+    margin-bottom:10px;
+    padding:2px;
+    border: 0.5px solid rgba(183, 183, 183, 0.363);
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+}
+.productitem--details--con{
+    background-color: rgb(255, 255, 255);
+    height:50%;
+    padding-left:10px;
+    color: black;   
+}
+.productitem--details--con h4 {
+    font-size:15px;
+    font-weight:400;
+}
+.productitem--details--con h3 {
+    font-size:15px;
+    font-weight:300;
+}
+.productitem--img--con {
+    background-color:rgb(255, 255, 255);
+    padding:10px;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productitem--img--con img {
+    width:130px;
+}
+.productitem--rating--con {
+    color:orange;
+}
+.productitem--rating--con {
+    display: flex;
+}.productitem--button--con  button{
+    background-color: maroon;
+    width:50%;
+    height:2rem;
+    color:white;
+    border-style: none;
+    border-radius:5px;
+}.productitem--offer--con p{
+    font-size:13px;
+}

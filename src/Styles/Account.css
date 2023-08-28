@@ -1,0 +1,509 @@
+.account-con {
+    width:100%;
+   
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.main-account-con {
+    width:65%;
+    background-color:rgba(0, 255, 255, 0);
+}
+.title-con {
+    width:100%;
+    height:2rem;
+    background-color: rgba(127, 255, 212, 0);  
+}
+.title-con h1 {
+    padding-left:20px;
+    font-weight:400;
+    font-size:28px;
+}
+.account-menu-con .acc-con{
+    display: flex;
+    margin-left:20px;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:10px;
+    border: 1.8px solid rgb(220, 220, 220);
+    border-radius:10px;
+    margin-bottom:20px;
+    margin-top:15px;
+    height:6rem;
+    width:21rem;
+}
+.account-menu-con {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 255, 255, 0);
+    margin-top:2rem;
+
+}
+.acc-con img{
+    width:70px;
+    height:60px;
+}
+.acc-con div{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: left;
+    line-height:0px;
+}
+.acc-con:hover {
+    background-color: rgba(221, 221, 221, 0.852);
+    opacity:.8;
+    cursor: pointer;
+}
+.acc-con div p:nth-child(1){
+    font-weight:500;
+
+}
+.acc-con div p:nth-child(2),.acc-con div p:nth-child(4),.acc-con div p:nth-child(3){
+    font-size:13px;
+    position: relative;
+    bottom:5px;
+    color: gray;
+}
+.acc-con div p:nth-child(3){
+    position: relative;
+    bottom:15px;
+}
+.acc-con div p:nth-child(4) {
+    position: relative;
+    bottom:25px;
+
+}
+.bottom-account-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+}
+.bottom-account-con div {
+    border:1px solid rgb(186, 186, 186);
+    width:20rem;
+    padding:20px;
+    display:flex;
+    border-radius:10px;
+    flex-direction:column;
+    line-height:1px;
+    align-items:start;
+    margin:1.5rem 1rem;
+}
+.bottom-account-con div h5 {
+    position: relative;
+    left:20px;
+}
+.bottom-account-con div p {
+    font-size:13px;
+    color:rgb(5, 132, 167);
+    font-weight: 500;
+
+}
+
+
+
+/* ========= address main-page ========== */
+.address-navi-con {
+    margin-top:2rem;
+    margin-bottom:1rem;
+    display: flex;
+    align-items: center;
+}
+
+.address-navi-con span:nth-child(1):hover{
+    color: red;
+    cursor: pointer;
+}
+.address-navi-con  span{
+    font-size:13px;
+    padding-left:20px;
+    
+}
+.address-con {
+    width:100%;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+    height:100vh;
+}
+
+.address-main-con {
+    width:60%;
+       
+}
+.address-edit-con {
+    margin-top:3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:start;
+    
+}
+
+.add-box img {
+    width:40px;
+    position: relative;
+    top:2px;
+}
+.add-head {
+    display: flex;
+    align-items: center;
+    width:100%;
+    height:40px;
+    border-bottom:1px solid rgb(193, 193, 193);
+
+}
+.add-body {
+    line-height:3px;
+}
+.add-body h4 {
+    padding-left:20px;
+}
+.add-body h4:nth-child(1){
+    font-weight:900;
+    font-size:13px;
+}
+.address-edit-con div {
+    margin:5px;
+}
+.sub {
+    font-weight:500;
+    font-size:13px;
+    color:rgb(53, 53, 53);
+}
+.add-body span {
+    padding-left:20px;
+    font-size:14px;
+    color: rgb(16, 150, 164);
+    margin-top:10px;
+    font-weight:600;
+    cursor: pointer;
+}
+.add-btns {
+    position: relative;
+    top:20px;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+.add-btns span {
+    margin:20px;
+    font-size:13px;
+    color: rgb(9, 79, 108);
+    font-weight:600;
+    cursor: pointer;
+}
+.add-head span {
+    font-size:12px;
+    font-weight:600;
+    color:gray;
+    padding-left:20px;
+    margin-right:10px;
+}
+.add-box {
+    border:1px solid gray;
+    border-radius:10px;
+    width:22rem;
+    height:17rem;
+    
+}
+
+.main--edit--button {
+    width:22rem;
+    height:17rem;
+    border:2px dashed rgb(186, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    cursor: pointer;
+}
+.main--edit--button div {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main--edit--button div h1 {
+    font-size:70px;
+    font-weight:300;
+    color:rgb(213, 213, 213);
+}
+.main--edit--button div h2 {
+    position: relative;
+    bottom:5rem;
+    font-size:23px;
+    color:rgb(101, 101, 101);
+}
+
+
+/* address edit page style */
+
+
+
+.address-navi-con span{
+    cursor: pointer;
+}
+.addressedit--main .address-navi-con span:nth-child(3):hover{
+    color: red;
+}
+.addressedit--con {
+    width:100%;
+    height:200vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.addressedit--main {
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    margin-bottom:5rem;
+    background-color: rgba(0, 255, 255, 0);
+}
+.title-con-1 h1{
+    font-size:23px;
+    font-weight:600;
+    padding-left:14px;
+}
+.address-autofill-con {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(149, 255, 255);
+    height:4rem;
+    align-items: center;
+    border-radius:10px;
+    border:2px solid rgb(1, 197, 197);
+}
+.address-autofill-con span {
+    font-size:12px;
+    font-weight:600;
+}
+.address-autofill-con button {
+    width:80px;
+    height:2rem;
+    background-color: white;
+    border:1px solid rgb(133, 133, 133);
+    border-radius:10px;
+}
+.country,.fullname,.mobile,.pincode,.add-1,.add-2,.add-3 {
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+}
+.form-addressgetting form label {
+    font-size:13px;
+    font-weight:600;
+}
+.country-code:focus {
+   background-color:rgb(245, 252, 255);
+   border:2px solid rgb(3, 136, 176);   
+}
+.country-code option {
+    background-color: white;
+}
+
+.form-addressgetting form input {
+    height:30px;
+    border-radius:5px;
+    padding-left:20px;
+    border:2px solid rgb(174, 174, 174);
+    margin-top:5px;
+}
+.form-addressgetting form input:focus {
+    border: 2px solid rgb(3, 136, 176);
+    outline: none;
+    background-color:rgb(245, 252, 255);
+}
+.warring-to-mobile {
+    font-size:11px;
+    color:gray;
+    margin-top:3px;
+}
+.fullname-err,.mobile-err {
+    color: red;
+    font-size:12px;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    font-weight:600;
+}
+.town-city {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:8rem;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0);
+} 
+
+.town-city div:nth-child(1){
+    width:40%;
+}.town-city div:nth-child(2){
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.town-city div:nth-child(2) select {
+    width:80%;
+    height:30px;
+}
+
+/* .default-add {
+    position: relative;
+    bottom:5rem;
+} */
+.default-add label {
+    display: flex;
+    align-items: center;
+    color:gray;
+    font-weight:500;
+}
+.default-add label input {
+    padding-right:20px;
+}
+.btn-drop {
+    color:rgb(3, 135, 172);
+    display: flex;
+    align-items: center;
+}
+.btn-drop:hover {
+    color:red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* .drop-down-add {
+    position: relative;
+    bottom:5rem;
+} */
+.additional-add {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0);
+}
+.add-type {
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    margin-top:10px;
+}
+.add-type button {
+   margin-right:30px;
+    width:80px;
+    height:1.7rem;
+    border:1px solid gray;
+    background-color: white;
+    border-radius:5px;
+    font-size:12px;
+    color:gray;
+}
+.add-type-status {
+    margin-top:10px;
+    cursor: pointer;
+}
+.add-type-status label {
+    color: rgb(177, 177, 177);
+    font-weight:500;
+}
+.acc-1 {
+    background-color:rgba(240, 240, 240, 0.852);
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    padding-left:20px;
+    font-size:14px;
+    font-weight:600;
+    height:2.6rem;
+    align-items: center;
+    border:1px solid rgb(195, 195, 195);
+}
+.last-detail {
+    margin-top:1.5rem;
+}
+.last-detail label {
+    font-weight:300;
+    color: gray;
+    font-size:12px;
+    font-style: italic;
+}
+.sub-btn-con {
+    margin-top:2rem;
+}
+.sub-btn-con button {
+    height:32px;
+    border-radius:5px;
+    border-style:none;
+    padding:10px;
+    text-align: center;
+    background-color:rgb(255, 230, 0);
+}
+.acc-1-ans {
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.acc-1-ans label ,.day-add label {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left:50px;
+    color: black;
+}
+.acc-1-ans label input ,.day-add label input{
+    margin-right:20px;
+}
+.type-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.type-add textarea {
+    max-width:90%;
+    min-width:90%;
+    margin:10px;
+    min-height:5rem;
+    border-radius:6px;
+    padding:10px;
+    font-size:15px;
+    font-weight:600;
+}
+.acc-add {
+    border-radius:5px;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.updateddefault {
+    width:80%;
+    margin-left:15px;
+    background-color:rgb(0, 91, 0);
+    height:5rem;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    border-radius:10px;
+}
+.updateddefault div {
+    width:99%;
+    height:4.7rem;
+    background-color: white;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:4px;
+    
+}
+.updateddefault div span {
+    position: relative;
+    left:2rem;
+    font-weight:700;
+}
+
+
+
+
+
+
